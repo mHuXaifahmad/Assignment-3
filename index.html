@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ======== Bootstrap ========== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- ======== Navbar ========= -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div>
+            <img src="/logo.png" alt="" width="40px" />
+            <a class="navbar-brand" href="#">TROPICO</a>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Fruits</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input
+                class="search-bar me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button type="button" class="btn btn-danger">GET A QUOTE</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ======= Home Page ======== -->
+
+    <div class="home-content">
+      <div class="container">
+        <div class="row">
+          <div class="home-section col-sm-12 col-md-12 col-lg-6">
+            <h1>
+              Welcome to <br />
+              our fruits shop
+            </h1>
+            &ensp;
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus, molestiae adipisci. Reiciendis suscipit aspernatur
+              aliquam delectus. Dicta illo asperiores quasi libero. Est,
+              incidunt dignissimos quaerat quisquam aspernatur nesciunt quasi a?
+            </p>
+            <br />
+            <button class="home-btn" id="home-btn-1">Shop Now</button>
+            <button class="home-btn" id="home-btn-2">Contact Us</button>
+          </div>
+
+          <div class="home-section col-sm-12 col-md-12 col-lg-6">
+            <img src="/slide-img.png" width="100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== our-service ====== -->
+    <div class="our-service">
+      <h2>Our service</h2>
+      <p>
+        There are many variation of passages of Lorem ipsum available,but the
+        majority have
+      </p>
+      &ensp;
+      <div class="row" id="service-cards">
+        <div class="cards col-sm-12 col-md-4 col-lg-4">
+          <img src="./card-item-grapes.png" alt="" width="50px" />
+          <h5 class="logo-heading">Grapes</h5>
+          <br />
+          <p>
+            There are many variation of passages of Lorem ipsum available,but
+            the majority have suffered altration in same form by injected
+            humour, randomised words which don't look even slightly belivable.
+          </p>
+        </div>
+
+        <div class="cards col-sm-12 col-md-4 col-lg-4">
+          <img src="/card-item-orange.png" alt="" width="50px" />
+          <h5 class="logo-heading">Orange</h5>
+          <br />
+          <p>
+            There are many variation of passages of Lorem ipsum available,but
+            the majority have suffered altration in same form by injected
+            humour, randomised words which don't look even slightly belivable.
+          </p>
+        </div>
+
+        <div class="cards col-sm-12 col-md-4 col-lg-4">
+          <img src="/card-item-gavas.png" alt="" width="50px" />
+          <h5 class="logo-heading">Gauva</h5>
+          <br />
+          <p>
+            There are many variation of passages of Lorem ipsum available,but
+            the majority have suffered altration in same form by injected
+            humour, randomised words which don't look even slightly belivable.
+          </p>
+        </div>
+      </div>
+    </div>
+    <button id="card-btn">Read More</button>
+
+    <!-- fruits-service -->
+    <div class="fruits-service">
+      <center>
+        <h1>Fresh Fruits</h1>
+        <p>
+          There are many variation of passages of Lorem ipsum available,but the
+          majority have
+        </p>
+      </center>
+
+      <div class="fruit-content">
+        <div class="section">
+          <div class="text1 col-sm-12 col-md-6 col-lg-8">
+            <h2 id="heading">Best Fresh Orange</h2>
+            <p>
+              but the majority have suffered altration in same form by injected
+              humour, randomised words which don't look even slightly
+              belivable.If you are going to use a pssage of Lorem ipsum,you need
+              to be.
+            </p>
+            <button class="fruit-btn">Buy Now</button>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="/orange.png" alt="" width="100%" />
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="text2 col-sm-12 col-md-6 col-lg-8">
+            <h2 id="heading">Best Fresh Grapes</h2>
+            <p>
+              but the majority have suffered altration in same form by injected
+              humour, randomised words which don't look even slightly
+              belivable.If you are going to use a pssage of Lorem ipsum,you need
+              to be.
+            </p>
+            <button class="fruit-btn">Buy Now</button>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="./grapes.png" alt="" width="50%" />
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="text3 col-sm-12 col-md-6 col-lg-8">
+            <h2 id="heading">Best Fresh Gave</h2>
+            <p>
+              but the majority have suffered altration in same form by injected
+              humour, randomised words which don't look even slightly
+              belivable.If you are going to use a pssage of Lorem ipsum,you need
+              to be.
+            </p>
+            <button class="fruit-btn">Buy Now</button>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img src="/gauva.png" alt="" width="90%" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="testimonial">
+            <center>
+                <h1>Testimonial</h1>
+                <p>There are many variation of passages of Lorem ipsum available,but the majority have </p>
+                <img src="/client.png" width="300px" alt="">
+                <h4>Johnhex</h4>
+                <br>
+                <p>There are many variation of passages of Lorem ipsum availabnle,but the majority have suffered
+                    altration
+                    in same form by injected humour, <br> randomised words which don't look even slightly belivable.</p>
+            </center>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <h1 id="contact-heading">Contact Us</h1>
+
+    <div class="container contact-page">
+        <div class="contact-content">
+            <table>
+                <form>
+                    <tr class="form">
+                        <td>Name*</td>
+                        <td><input type="text" placeholder="Enter Your Name" width="40%"></td>
+                    </tr>
+                    <tr class="form">
+                        <td>Phone Number</td>
+                        <td><input type="text" placeholder="Enter your Password "></td>
+                    </tr>
+                    <tr class="form">
+                        <td>Email*</td>
+                        <td><input type="text" placeholder="Enter your Email "></td>
+                    </tr>
+                    <tr class="form">
+                        <td>Message</td>
+                        <td><input type="text" placeholder="Write Message Here "></td>
+                    </tr>
+                </form>
+            </table>
+            <button class="contact-btn">Send</button>
+        </div>
+        <div class="contact-img">
+            <img src="orange-dish.png" alt="" width="250px">
+        </div>
+    </div>
+
+
+    <!-- footer -->
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <h3>Fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptate nam at consequuntur
+                    quis nesciunt beatae! Molestiae ullam doloribus enimt</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <h3>Services</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptate nam at consequuntur quis
+                    nesciunt beatae! Molestiae ullam doloribus enim.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <h3>Lists</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptate nam at consequuntur quis
+                    nesciunt beatae! Molestiae ullam doloribus enim.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <h3>Follow Us</h3>
+                <img class="fotter-text" id="footer-logo" src="/instagram.png" alt="" width="30px">
+                <img class="fotter-text" id="footer-logo" src="/linkedin.png" alt="" width="30px">
+                <img class="fotter-text" id="footer-logo" src="/fb.png" alt="" width="30px">
+                <img class="fotter-text" id="footer-logo" src="/twitter.png" alt="" width="30px">
+                <br>
+                &ensp;
+                <h5 class="fotter-text">Subscrib Now</h5>
+                <input type="text" name="text" class="fotter-text"><br>
+                <button id="footer-btn">Subsribe</button>
+            </div>
+        </div>
+      </div>
+
+    <!-- ========= Java script ========= -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
